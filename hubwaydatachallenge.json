@@ -1,0 +1,1721 @@
+{
+    "meta": {
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 95
+    },
+    "objects": [
+        {
+            "id": 3,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Colleges of the Fenway",
+            "point": {
+                "coordinates": [
+                    -71.100812,
+                    42.340021
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/3/",
+            "temporary": false,
+            "terminalname": "B32006"
+        },
+        {
+            "id": 4,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Tremont St. at Berkeley St.",
+            "point": {
+                "coordinates": [
+                    -71.069616,
+                    42.345392
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/4/",
+            "temporary": false,
+            "terminalname": "C32000"
+        },
+        {
+            "id": 5,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Northeastern U / North Parking Lot",
+            "point": {
+                "coordinates": [
+                    -71.090179,
+                    42.341814
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/5/",
+            "temporary": false,
+            "terminalname": "B32012"
+        },
+        {
+            "id": 6,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Cambridge St. at Joy St.",
+            "point": {
+                "coordinates": [
+                    -71.06514,
+                    42.361285
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/6/",
+            "temporary": false,
+            "terminalname": "D32000"
+        },
+        {
+            "id": 7,
+            "installdate": "2011-09-23T00:00:00",
+            "installed": true,
+            "locked": false,
+            "name": "Fan Pier",
+            "point": {
+                "coordinates": [
+                    -71.044624,
+                    42.353412
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/7/",
+            "temporary": false,
+            "terminalname": "A32000"
+        },
+        {
+            "id": 8,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Union Square - Brighton Ave. at Cambridge St.",
+            "point": {
+                "coordinates": [
+                    -71.137313,
+                    42.353334
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/8/",
+            "temporary": false,
+            "terminalname": "A32001"
+        },
+        {
+            "id": 9,
+            "installdate": "2012-03-23T14:24:00",
+            "installed": true,
+            "locked": false,
+            "name": "Agganis Arena - 925 Comm Ave.",
+            "point": {
+                "coordinates": [
+                    -71.116174,
+                    42.351313
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/9/",
+            "temporary": false,
+            "terminalname": "A32002"
+        },
+        {
+            "id": 10,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "B.U. Central - 725 Comm. Ave.",
+            "point": {
+                "coordinates": [
+                    -71.105884,
+                    42.350075
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/10/",
+            "temporary": false,
+            "terminalname": "A32003"
+        },
+        {
+            "id": 11,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Longwood Ave / Binney St",
+            "point": {
+                "coordinates": [
+                    -71.1065,
+                    42.338629
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/11/",
+            "temporary": false,
+            "terminalname": "A32004"
+        },
+        {
+            "id": 12,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Ruggles Station / Columbus Ave.",
+            "point": {
+                "coordinates": [
+                    -71.088496,
+                    42.335911
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/12/",
+            "temporary": false,
+            "terminalname": "B32002"
+        },
+        {
+            "id": 13,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Boston Medical Center - 721 Mass. Ave.",
+            "point": {
+                "coordinates": [
+                    -71.07403,
+                    42.334057
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/13/",
+            "temporary": false,
+            "terminalname": "C32002"
+        },
+        {
+            "id": 14,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Louis Pasteur / Longwood Ave",
+            "point": {
+                "coordinates": [
+                    -71.102797,
+                    42.337171
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/14/",
+            "temporary": false,
+            "terminalname": "B32003"
+        },
+        {
+            "id": 15,
+            "installdate": "2012-07-31T17:16:00",
+            "installed": true,
+            "locked": false,
+            "name": "Harvard Real Estate - Brighton Mills - 370 Western Ave",
+            "point": {
+                "coordinates": [
+                    -71.13802,
+                    42.361667
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/15/",
+            "temporary": false,
+            "terminalname": "A32005"
+        },
+        {
+            "id": 16,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Back Bay / South End Station",
+            "point": {
+                "coordinates": [
+                    -71.076163,
+                    42.347433
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/16/",
+            "temporary": false,
+            "terminalname": "C32003"
+        },
+        {
+            "id": 17,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Harvard University Housing - 111 Western Ave. at Soldiers Field Park ",
+            "point": {
+                "coordinates": [
+                    -71.119581,
+                    42.365074
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/17/",
+            "temporary": false,
+            "terminalname": "A32006"
+        },
+        {
+            "id": 18,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Harvard Real Estate - 219 Western Ave. at North Harvard St.",
+            "point": {
+                "coordinates": [
+                    -71.129791,
+                    42.36337
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/18/",
+            "temporary": false,
+            "terminalname": "A32007"
+        },
+        {
+            "id": 19,
+            "installdate": "2012-08-10T14:25:00",
+            "installed": true,
+            "locked": false,
+            "name": "Buswell Park",
+            "point": {
+                "coordinates": [
+                    -71.105828,
+                    42.347527
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/19/",
+            "temporary": false,
+            "terminalname": "A32008"
+        },
+        {
+            "id": 20,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Aquarium Station - 200 Atlantic Ave.",
+            "point": {
+                "coordinates": [
+                    -71.051601,
+                    42.35977
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/20/",
+            "temporary": false,
+            "terminalname": "B32004"
+        },
+        {
+            "id": 21,
+            "installdate": "2012-03-14T14:51:00",
+            "installed": true,
+            "locked": false,
+            "name": "Prudential Center / Belvidere",
+            "point": {
+                "coordinates": [
+                    -71.082578,
+                    42.345959
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/21/",
+            "temporary": false,
+            "terminalname": "C32007"
+        },
+        {
+            "id": 22,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "South Station - 700 Atlantic Ave.",
+            "point": {
+                "coordinates": [
+                    -71.055547,
+                    42.352175
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/22/",
+            "temporary": false,
+            "terminalname": "A32010"
+        },
+        {
+            "id": 23,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Mayor Thomas M. Menino - Government Center",
+            "point": {
+                "coordinates": [
+                    -71.059364,
+                    42.359677
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/23/",
+            "temporary": false,
+            "terminalname": "B32008"
+        },
+        {
+            "id": 24,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Seaport Square - Seaport Blvd. at Boston Wharf",
+            "point": {
+                "coordinates": [
+                    -71.045461,
+                    42.351821
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/24/",
+            "temporary": false,
+            "terminalname": "B32007"
+        },
+        {
+            "id": 25,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Tremont St / W Newton St",
+            "point": {
+                "coordinates": [
+                    -71.076847,
+                    42.341332
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/25/",
+            "temporary": false,
+            "terminalname": "A32009"
+        },
+        {
+            "id": 26,
+            "installdate": "2012-03-28T13:01:00",
+            "installed": true,
+            "locked": false,
+            "name": "Washington St. at Waltham St.",
+            "point": {
+                "coordinates": [
+                    -71.068922,
+                    42.341522
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/26/",
+            "temporary": false,
+            "terminalname": "D32002"
+        },
+        {
+            "id": 27,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Roxbury Crossing Station",
+            "point": {
+                "coordinates": [
+                    -71.094734,
+                    42.331567
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/27/",
+            "temporary": false,
+            "terminalname": "C32001"
+        },
+        {
+            "id": 29,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Innovation Lab - 125 Western Ave. at Batten Way",
+            "point": {
+                "coordinates": [
+                    -71.124565,
+                    42.363732
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/29/",
+            "temporary": false,
+            "terminalname": "A32011"
+        },
+        {
+            "id": 30,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Brigham Cir / Huntington Ave",
+            "point": {
+                "coordinates": [
+                    -71.105221,
+                    42.334073
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/30/",
+            "temporary": false,
+            "terminalname": "B32013"
+        },
+        {
+            "id": 31,
+            "installdate": "2012-03-28T13:02:00",
+            "installed": true,
+            "locked": false,
+            "name": "Seaport Hotel",
+            "point": {
+                "coordinates": [
+                    -71.041747,
+                    42.348833
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/31/",
+            "temporary": false,
+            "terminalname": "B32014"
+        },
+        {
+            "id": 32,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Landmark Centre",
+            "point": {
+                "coordinates": [
+                    -71.102221,
+                    42.343912
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/32/",
+            "temporary": false,
+            "terminalname": "B32015"
+        },
+        {
+            "id": 33,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Kenmore Sq / Comm Ave",
+            "point": {
+                "coordinates": [
+                    -71.096831,
+                    42.349046
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/33/",
+            "temporary": false,
+            "terminalname": "B32010"
+        },
+        {
+            "id": 34,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Overland St at Brookline Ave",
+            "point": {
+                "coordinates": [
+                    -71.099855,
+                    42.346171
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/34/",
+            "temporary": false,
+            "terminalname": "B32009"
+        },
+        {
+            "id": 35,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Summer St. / Arch St.",
+            "point": {
+                "coordinates": [
+                    -71.05896,
+                    42.354594
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/35/",
+            "temporary": false,
+            "terminalname": "D32004"
+        },
+        {
+            "id": 36,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Boston Public Library - 700 Boylston St.",
+            "point": {
+                "coordinates": [
+                    -71.077303,
+                    42.349673
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/36/",
+            "temporary": false,
+            "terminalname": "D32005"
+        },
+        {
+            "id": 37,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "New Balance - 38 Guest St.",
+            "point": {
+                "coordinates": [
+                    -71.146452,
+                    42.357247
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/37/",
+            "temporary": false,
+            "terminalname": "D32001"
+        },
+        {
+            "id": 38,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "TD Garden - Legends Way",
+            "point": {
+                "coordinates": [
+                    -71.060868,
+                    42.366231
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/38/",
+            "temporary": false,
+            "terminalname": "D32003"
+        },
+        {
+            "id": 39,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Washington St. at Rutland St.",
+            "point": {
+                "coordinates": [
+                    -71.074182,
+                    42.338623
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/39/",
+            "temporary": false,
+            "terminalname": "C32006"
+        },
+        {
+            "id": 40,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Lewis Wharf - Atlantic Ave.",
+            "point": {
+                "coordinates": [
+                    -71.050877,
+                    42.363871
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/40/",
+            "temporary": false,
+            "terminalname": "D32006"
+        },
+        {
+            "id": 41,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Packard's Corner - Comm. Ave. at Brighton Ave.",
+            "point": {
+                "coordinates": [
+                    -71.123831,
+                    42.352261
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/41/",
+            "temporary": false,
+            "terminalname": "A32012"
+        },
+        {
+            "id": 42,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Boylston St. at Arlington St.",
+            "point": {
+                "coordinates": [
+                    -71.070378,
+                    42.352096
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/42/",
+            "temporary": false,
+            "terminalname": "D32007"
+        },
+        {
+            "id": 43,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Rowes Wharf - Atlantic Ave",
+            "point": {
+                "coordinates": [
+                    -71.050699,
+                    42.357143
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/43/",
+            "temporary": false,
+            "terminalname": "D32008"
+        },
+        {
+            "id": 44,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Faneuil Hall - Union St. at North St.",
+            "point": {
+                "coordinates": [
+                    -71.056868,
+                    42.360583
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/44/",
+            "temporary": false,
+            "terminalname": "D32009"
+        },
+        {
+            "id": 45,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Yawkey Way at Boylston St.",
+            "point": {
+                "coordinates": [
+                    -71.09788,
+                    42.344763
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/45/",
+            "temporary": false,
+            "terminalname": "B32011"
+        },
+        {
+            "id": 46,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Christian Science Plaza",
+            "point": {
+                "coordinates": [
+                    -71.085918,
+                    42.343864
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/46/",
+            "temporary": false,
+            "terminalname": "B32005"
+        },
+        {
+            "id": 47,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Cross St. at Hanover St.",
+            "point": {
+                "coordinates": [
+                    -71.056067,
+                    42.362811
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/47/",
+            "temporary": false,
+            "terminalname": "D32010"
+        },
+        {
+            "id": 48,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Post Office Square",
+            "point": {
+                "coordinates": [
+                    -71.055407,
+                    42.356755
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/48/",
+            "temporary": false,
+            "terminalname": "D32012"
+        },
+        {
+            "id": 49,
+            "installdate": "2012-03-14T15:02:00",
+            "installed": true,
+            "locked": false,
+            "name": "Stuart St. at Charles St.",
+            "point": {
+                "coordinates": [
+                    -71.066289,
+                    42.351146
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/49/",
+            "temporary": false,
+            "terminalname": "D32011"
+        },
+        {
+            "id": 50,
+            "installdate": "2012-03-28T14:21:00",
+            "installed": true,
+            "locked": false,
+            "name": "Boylston St / Berkeley St",
+            "point": {
+                "coordinates": [
+                    -71.073644,
+                    42.350989
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/50/",
+            "temporary": false,
+            "terminalname": "D32013"
+        },
+        {
+            "id": 51,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Washington St. at Lenox St.",
+            "point": {
+                "coordinates": [
+                    -71.0790969,
+                    42.3348756
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/51/",
+            "temporary": false,
+            "terminalname": "C32005"
+        },
+        {
+            "id": 52,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Newbury St / Hereford St",
+            "point": {
+                "coordinates": [
+                    -71.085954,
+                    42.348717
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/52/",
+            "temporary": false,
+            "terminalname": "B32000"
+        },
+        {
+            "id": 53,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Beacon St / Mass Ave",
+            "point": {
+                "coordinates": [
+                    -71.089886,
+                    42.350851
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/53/",
+            "temporary": false,
+            "terminalname": "B32016"
+        },
+        {
+            "id": 54,
+            "installdate": "2012-03-28T14:22:00",
+            "installed": true,
+            "locked": false,
+            "name": "Tremont St / West St",
+            "point": {
+                "coordinates": [
+                    -71.063348,
+                    42.354979
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/54/",
+            "temporary": false,
+            "terminalname": "D32014"
+        },
+        {
+            "id": 55,
+            "installdate": "2011-08-19T00:00:00",
+            "installed": true,
+            "locked": false,
+            "name": "Boylston / Mass Ave",
+            "point": {
+                "coordinates": [
+                    -71.088088,
+                    42.347265
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/55/",
+            "temporary": false,
+            "terminalname": "B32018"
+        },
+        {
+            "id": 56,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Dudley Square",
+            "point": {
+                "coordinates": [
+                    -71.0833545,
+                    42.3281898
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/56/",
+            "temporary": false,
+            "terminalname": "B32017"
+        },
+        {
+            "id": 57,
+            "installdate": "2011-08-19T00:00:00",
+            "installed": true,
+            "locked": false,
+            "name": "Columbus Ave. at Mass. Ave.",
+            "point": {
+                "coordinates": [
+                    -71.081572,
+                    42.340799
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/57/",
+            "temporary": false,
+            "terminalname": "C32004"
+        },
+        {
+            "id": 58,
+            "installdate": "2011-08-29T16:49:00",
+            "installed": true,
+            "locked": false,
+            "name": "The Esplanade - Beacon St. at Arlington St.",
+            "point": {
+                "coordinates": [
+                    -71.07278,
+                    42.355596
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/58/",
+            "temporary": false,
+            "terminalname": "D32017"
+        },
+        {
+            "id": 59,
+            "installdate": "2011-08-31T00:00:00",
+            "installed": true,
+            "locked": false,
+            "name": "Chinatown Gate Plaza - Surface Rd. at Beach St.",
+            "point": {
+                "coordinates": [
+                    -71.059367,
+                    42.351356
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/59/",
+            "temporary": false,
+            "terminalname": "D32015"
+        },
+        {
+            "id": 60,
+            "installdate": "2011-09-23T00:00:00",
+            "installed": true,
+            "locked": false,
+            "name": "Charles Circle - Charles St. at Cambridge St.",
+            "point": {
+                "coordinates": [
+                    -71.07131,
+                    42.360877
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/60/",
+            "temporary": false,
+            "terminalname": "D32016"
+        },
+        {
+            "id": 61,
+            "installdate": "2011-09-23T00:00:00",
+            "installed": true,
+            "locked": false,
+            "name": "Boylston at Fairfield",
+            "point": {
+                "coordinates": [
+                    -71.082674,
+                    42.348323
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/61/",
+            "temporary": false,
+            "terminalname": "C32008"
+        },
+        {
+            "id": 62,
+            "installdate": "2011-10-14T00:00:00",
+            "installed": true,
+            "locked": false,
+            "name": "Longwood Ave/Riverway",
+            "point": {
+                "coordinates": [
+                    -71.109927,
+                    42.340299
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/62/",
+            "temporary": false,
+            "terminalname": "B32019"
+        },
+        {
+            "id": 63,
+            "installdate": "2011-10-19T00:00:00",
+            "installed": true,
+            "locked": false,
+            "name": "Dorchester Ave. at Gillette Park",
+            "point": {
+                "coordinates": [
+                    -71.057054,
+                    42.344023
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/63/",
+            "temporary": false,
+            "terminalname": "C32009"
+        },
+        {
+            "id": 64,
+            "installdate": null,
+            "installed": true,
+            "locked": false,
+            "name": "Congress / Sleeper",
+            "point": {
+                "coordinates": [
+                    -71.0496,
+                    42.3511
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/64/",
+            "temporary": false,
+            "terminalname": "C32010"
+        },
+        {
+            "id": 65,
+            "installdate": "2012-03-09T11:52:00",
+            "installed": true,
+            "locked": false,
+            "name": "Boston Convention & Exhibition Center",
+            "point": {
+                "coordinates": [
+                    -71.0441,
+                    42.3475
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/65/",
+            "temporary": false,
+            "terminalname": "D32018"
+        },
+        {
+            "id": 66,
+            "installdate": "2012-08-03T17:11:00",
+            "installed": true,
+            "locked": false,
+            "name": "Allston Green District - Commonwealth Ave & Griggs St",
+            "point": {
+                "coordinates": [
+                    -71.13401,
+                    42.348607
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/66/",
+            "temporary": false,
+            "terminalname": "A32017"
+        },
+        {
+            "id": 67,
+            "installdate": "2012-08-03T12:10:00",
+            "installed": true,
+            "locked": false,
+            "name": "MIT at Mass Ave / Amherst St",
+            "point": {
+                "coordinates": [
+                    -71.093198,
+                    42.3581
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/67/",
+            "temporary": false,
+            "terminalname": "M32006"
+        },
+        {
+            "id": 68,
+            "installdate": "2012-07-31T17:13:00",
+            "installed": true,
+            "locked": false,
+            "name": "Central Square at Mass Ave / Essex St",
+            "point": {
+                "coordinates": [
+                    -71.1031,
+                    42.36507
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/68/",
+            "temporary": false,
+            "terminalname": "M32011"
+        },
+        {
+            "id": 69,
+            "installdate": "2012-08-03T12:23:00",
+            "installed": true,
+            "locked": false,
+            "name": "Coolidge Corner - Beacon St @ Centre St",
+            "point": {
+                "coordinates": [
+                    -71.123338,
+                    42.341598
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/69/",
+            "temporary": false,
+            "terminalname": "K32001"
+        },
+        {
+            "id": 70,
+            "installdate": "2012-07-31T17:16:00",
+            "installed": true,
+            "locked": false,
+            "name": "Harvard Kennedy School at Bennett St / Eliot St",
+            "point": {
+                "coordinates": [
+                    -71.121851,
+                    42.372244
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/70/",
+            "temporary": false,
+            "terminalname": "M32016"
+        },
+        {
+            "id": 71,
+            "installdate": "2012-08-14T09:44:00",
+            "installed": true,
+            "locked": false,
+            "name": "Conway Park - Somerville Avenue",
+            "point": {
+                "coordinates": [
+                    -71.107593,
+                    42.383405
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/71/",
+            "temporary": false,
+            "terminalname": "S32004"
+        },
+        {
+            "id": 72,
+            "installdate": "2012-08-14T11:08:00",
+            "installed": true,
+            "locked": false,
+            "name": "One Broadway / Kendall Sq at Main St / 3rd St",
+            "point": {
+                "coordinates": [
+                    -71.084105,
+                    42.362613
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/72/",
+            "temporary": false,
+            "terminalname": "M32003"
+        },
+        {
+            "id": 73,
+            "installdate": "2012-07-30T17:17:00",
+            "installed": true,
+            "locked": false,
+            "name": "Harvard Square at Brattle St / Eliot St",
+            "point": {
+                "coordinates": [
+                    -71.120886,
+                    42.373231
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/73/",
+            "temporary": false,
+            "terminalname": "M32017"
+        },
+        {
+            "id": 74,
+            "installdate": "2012-07-30T17:15:00",
+            "installed": true,
+            "locked": false,
+            "name": "Harvard Square at Mass Ave/ Dunster",
+            "point": {
+                "coordinates": [
+                    -71.118579,
+                    42.373268
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/74/",
+            "temporary": false,
+            "terminalname": "M32018"
+        },
+        {
+            "id": 75,
+            "installdate": "2012-07-30T17:17:00",
+            "installed": true,
+            "locked": false,
+            "name": "Lafayette Square at Mass Ave / Main St / Columbia St",
+            "point": {
+                "coordinates": [
+                    -71.10042,
+                    42.363562
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/75/",
+            "temporary": false,
+            "terminalname": "M32009"
+        },
+        {
+            "id": 76,
+            "installdate": "2012-07-30T17:11:00",
+            "installed": true,
+            "locked": false,
+            "name": "Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St",
+            "point": {
+                "coordinates": [
+                    -71.105495,
+                    42.366426
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/76/",
+            "temporary": false,
+            "terminalname": "M32012"
+        },
+        {
+            "id": 77,
+            "installdate": "2012-08-01T14:28:00",
+            "installed": true,
+            "locked": false,
+            "name": "Somerville City Hall",
+            "point": {
+                "coordinates": [
+                    -71.096413,
+                    42.386428
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/77/",
+            "temporary": false,
+            "terminalname": "S32001"
+        },
+        {
+            "id": 78,
+            "installdate": "2012-08-01T14:28:00",
+            "installed": true,
+            "locked": false,
+            "name": "Union Square - Somerville",
+            "point": {
+                "coordinates": [
+                    -71.095319,
+                    42.379637
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/78/",
+            "temporary": false,
+            "terminalname": "S32002"
+        },
+        {
+            "id": 79,
+            "installdate": "2012-08-01T17:19:00",
+            "installed": true,
+            "locked": false,
+            "name": "Beacon St at Washington / Kirkland",
+            "point": {
+                "coordinates": [
+                    -71.106541,
+                    42.378551
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/79/",
+            "temporary": false,
+            "terminalname": "S32003"
+        },
+        {
+            "id": 80,
+            "installdate": "2012-08-07T10:22:00",
+            "installed": true,
+            "locked": false,
+            "name": "MIT Stata Center at Vassar St / Main St",
+            "point": {
+                "coordinates": [
+                    -71.090188,
+                    42.362429
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/80/",
+            "temporary": false,
+            "terminalname": "M32005"
+        },
+        {
+            "id": 81,
+            "installdate": "2012-08-03T12:13:00",
+            "installed": true,
+            "locked": false,
+            "name": "Boylston St / Washington St",
+            "point": {
+                "coordinates": [
+                    -71.062679,
+                    42.352409
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/81/",
+            "temporary": false,
+            "terminalname": "D32019"
+        },
+        {
+            "id": 82,
+            "installdate": "2012-08-03T17:08:00",
+            "installed": true,
+            "locked": false,
+            "name": "Brookline Town Hall / Library Washington St",
+            "point": {
+                "coordinates": [
+                    -71.120526,
+                    42.333689
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/82/",
+            "temporary": false,
+            "terminalname": "K32002"
+        },
+        {
+            "id": 83,
+            "installdate": "2012-08-07T12:39:00",
+            "installed": true,
+            "locked": false,
+            "name": "South Bay Plaza",
+            "point": {
+                "coordinates": [
+                    -71.065928,
+                    42.325941
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/83/",
+            "temporary": false,
+            "terminalname": "C32011"
+        },
+        {
+            "id": 84,
+            "installdate": "2012-08-10T16:12:00",
+            "installed": true,
+            "locked": false,
+            "name": "CambridgeSide Galleria - CambridgeSide PL at Land Blvd",
+            "point": {
+                "coordinates": [
+                    -71.076472,
+                    42.366981
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/84/",
+            "temporary": false,
+            "terminalname": "M32019"
+        },
+        {
+            "id": 85,
+            "installdate": "2012-08-10T08:19:00",
+            "installed": true,
+            "locked": false,
+            "name": "Andrew Station - Dorchester Ave at Humboldt Pl",
+            "point": {
+                "coordinates": [
+                    -71.057007,
+                    42.330825
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/85/",
+            "temporary": false,
+            "terminalname": "C32012"
+        },
+        {
+            "id": 86,
+            "installdate": "2012-08-14T13:27:00",
+            "installed": true,
+            "locked": false,
+            "name": "Brookline Village - Station Street @ MBTA",
+            "point": {
+                "coordinates": [
+                    -71.116205,
+                    42.332799
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/86/",
+            "temporary": false,
+            "terminalname": "K32003"
+        },
+        {
+            "id": 87,
+            "installdate": "2012-09-07T14:45:00",
+            "installed": true,
+            "locked": false,
+            "name": "Harvard University Housing - 115 Putnam Ave at Peabody Terrace",
+            "point": {
+                "coordinates": [
+                    -71.114214,
+                    42.366621
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/87/",
+            "temporary": false,
+            "terminalname": "M32014"
+        },
+        {
+            "id": 88,
+            "installdate": "2012-08-29T15:27:00",
+            "installed": true,
+            "locked": false,
+            "name": "Inman Square at Vellucci Plaza / Hampshire St",
+            "point": {
+                "coordinates": [
+                    -71.101427,
+                    42.374035
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/88/",
+            "temporary": false,
+            "terminalname": "M32010"
+        },
+        {
+            "id": 89,
+            "installdate": "2012-09-07T12:40:00",
+            "installed": true,
+            "locked": false,
+            "name": "Harvard Law School at Mass Ave / Jarvis St",
+            "point": {
+                "coordinates": [
+                    -71.119945,
+                    42.379011
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/89/",
+            "temporary": false,
+            "terminalname": "M32020"
+        },
+        {
+            "id": 90,
+            "installdate": "2012-08-29T20:21:00",
+            "installed": true,
+            "locked": false,
+            "name": "Lechmere Station at Cambridge St / First St",
+            "point": {
+                "coordinates": [
+                    -71.07711,
+                    42.3707
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/90/",
+            "temporary": false,
+            "terminalname": "M32001"
+        },
+        {
+            "id": 91,
+            "installdate": "2012-08-29T11:57:00",
+            "installed": true,
+            "locked": false,
+            "name": "One Kendall Square at Hampshire St / Portland St",
+            "point": {
+                "coordinates": [
+                    -71.09169,
+                    42.366277
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/91/",
+            "temporary": false,
+            "terminalname": "M32002"
+        },
+        {
+            "id": 92,
+            "installdate": "2012-09-07T16:26:00",
+            "installed": true,
+            "locked": false,
+            "name": "University of Massachusetts Boston",
+            "point": {
+                "coordinates": [
+                    -71.035705,
+                    42.311819
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/92/",
+            "temporary": false,
+            "terminalname": "C32014"
+        },
+        {
+            "id": 93,
+            "installdate": "2012-09-07T18:54:00",
+            "installed": true,
+            "locked": false,
+            "name": "JFK / UMASS Station",
+            "point": {
+                "coordinates": [
+                    -71.051122,
+                    42.320494
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/93/",
+            "temporary": false,
+            "terminalname": "C32013"
+        },
+        {
+            "id": 94,
+            "installdate": "2012-09-11T09:39:00",
+            "installed": true,
+            "locked": false,
+            "name": "Charlestown - Main St at Austin St",
+            "point": {
+                "coordinates": [
+                    -71.064608,
+                    42.375603
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/94/",
+            "temporary": false,
+            "terminalname": "D32020"
+        },
+        {
+            "id": 95,
+            "installdate": "2012-09-11T10:49:00",
+            "installed": true,
+            "locked": false,
+            "name": "Cambridge St - at Columbia St / Webster Ave",
+            "point": {
+                "coordinates": [
+                    -71.094445,
+                    42.372969
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/95/",
+            "temporary": false,
+            "terminalname": "M32007"
+        },
+        {
+            "id": 96,
+            "installdate": "2012-09-11T12:12:00",
+            "installed": true,
+            "locked": false,
+            "name": "Cambridge Main Library at Broadway / Trowbridge St",
+            "point": {
+                "coordinates": [
+                    -71.111075,
+                    42.373379
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/96/",
+            "temporary": false,
+            "terminalname": "M32013"
+        },
+        {
+            "id": 97,
+            "installdate": "2012-09-11T13:46:00",
+            "installed": true,
+            "locked": false,
+            "name": "Harvard  University River Houses at DeWolfe St / Cowperthwaite St",
+            "point": {
+                "coordinates": [
+                    -71.117152,
+                    42.369182
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/97/",
+            "temporary": false,
+            "terminalname": "M32015"
+        },
+        {
+            "id": 98,
+            "installdate": "2012-09-11T15:22:00",
+            "installed": true,
+            "locked": false,
+            "name": "Charlestown - Warren St at Chelsea St",
+            "point": {
+                "coordinates": [
+                    -71.060292,
+                    42.371848
+                ],
+                "type": "Point"
+            },
+            "removaldate": null,
+            "resource_uri": "/api/v1/station/98/",
+            "temporary": false,
+            "terminalname": "D32021"
+        }
+    ]
+}
