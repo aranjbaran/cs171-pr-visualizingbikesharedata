@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<script src="libs/d3/d3.min.js" charset="utf-8"></script>
+<script src="libs/jquery/jquery-2.1.1.min.js" charset="utf-8"></script>
+<!-- <script src="http://d3js.org/d3.v2.min.js?2.10.0"></script> -->
+<script src="libs/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="js/countvis.js"></script>
+<script src="js/pievis.js"></script>
+<script src="js/mapvis.js"></script>
+<script src="js/uservis.js"></script>
+
+
+<!--Stylesheets-->
+<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="chosen.min.css">
+
+<!-- Get some nice font-->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+<!--------------------------------->
+<!-- FROM HERE ON IT IS HW3 stuff-->
+<!--------------------------------->
+
+<!-- add own vis classes-->
+
+<!-- add own stylesheet-->
+<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+
+
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="libs/d3/d3.min.js" charset="utf-8"></script>
+    <style type="text/css">
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        html body #whole {
+            width: 100%;
+            height: 100%;
+            margin-left: 0;
+            padding: 0;
+            position: absolute;
+            top: 90px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0);
+        }
+        
+        #mapVis {
+            width: 700px;
+            height: 700px;
+            position: absolute;
+            top: 20px;
+            left: 800px;
+            padding: 0;
+        }
+        
+        html body #whole #svg {
+            width: 25%;
+            height: 75%;
+            margin-right: 75%;
+            padding: 0;
+            color: "white"
+        }
+        
+        #legend {
+            width: 700px;
+            height: 700px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 0;
+        }
+        
+        #graphs {
+            width: 800px;
+            height: 700px;
+            position: absolute;
+            top: 200px;
+            left: 20px;
+            padding: 0;
+        }
+        
+        #pieVis {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 200px;
+            left: 20px;
+            padding: 0;
+        }
+        
+         #countVis {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 90px;
+            left: 20px;
+            padding: 0;
+        }
+        
+
+        #userVis {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 200px;
+            left: 320px;
+            padding: 0;
+        }
+        
+        html body #whole #svg #graph {
+            width: 100%;
+            height: 50%;
+            margin-right: 0;
+            padding: 0;
+        }
+        
+        .stations,
+        .stations svg {
+            position: absolute;
+        }
+        
+        .stations svg {
+            width: 60px;
+            height: 20px;
+            padding-right: 100px;
+            font: 10px sans-serif;
+        }
+        
+        .stations circle {
+            fill: brown;
+            stroke: black;
+            stroke-width: 1.5px;
+        }
+
+        #title {
+            position: absolute;
+                        top: 20px;
+                        left: 20px;
+
+        }
+         #day {
+            position: absolute;
+                        top: 60px;
+                        left: 20px;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div id="title">
+        <p float="left">
+            Bike Share Project
+        </p>
+
+    </div>
+
+    <div id="day">
+        <form>
+            <label>
+                <input type="checkbox" id="weekday" name="day" value="day"> Weekday</label>
+            <label>
+                <input type="checkbox" id="weekend" name="day" value="weekend"> Weekend</label>
+        </form>
+    </div>
+
+
+
+    <div id="whole">
+        <div id="mapVis">
+
+
+        </div>
+
+
+        <div id="legend">
+
+
+
+
+        </div>
+
+        </div>
+        <div id = "countVis">
+        </div>
+
+        <div id="graphs">
+
+            <div id="pieVis">
+
+            </div>
+
+            <div id="userVis">
+            </div>
+        
+
+        <script>
+            var intervals = 
+            
+                {
+
+                    "09:00:00": {
+
+                        "10": [],
+                        "11": [],
+                        "totaltrips": []
+                    },
+                    "09:05:00": {
+                        "10": [],
+                        "11": [],
+                        "totaltrips": []
+                    },
+                    "09:10:00": {
+                        "10": [],
+                        "11": [],
+                        "totaltrips": []
+                    },
+                    "09:15:00": {
+                        "10": [],
+                        "11": [],
+                        "totaltrips": []
+                    }
+                
+                }
+                // , "00:05:00": [], "00:10:00": [], "01:00:00": [], "01:05:00": [], "01:10:00" :[], "01:15:00" :[]}
+            var intervals_keys = Object.keys(intervals)
+
+            // console.log(intervals_keys)
+                // , "00:10:00", "01:00:00", "01:05:00", "01:10:00", "01:15:00"]
+
+            var stations = ["10", "11"]
+                // intervals.keys
+                // console.log(intervals_keys)
+            var female = 0;
+            var male = 0;
+            var casual = 0;
+            var registered = 0;
+            var female_percent;
+            var male_percent;
+            var casual_percent;
+            var registered_percent;
+            var gender_percent = d3.range(0, 2).map(function() {
+                return 0;
+            })
+            var user_percent = {}
+
+            var gender_final = []
+            var user_final = []
+                // var res = {}
+
+            $(function() {
+                var allData = [];
+                var metaData = {};
+
+
+                var dateFormatter = d3.time.format("%Y-%m-%dT%H:%M:%S");
+
+
+                var initVis = function() {
+                    // console.log(allData)
+
+                    var MyEventHandler = new Object();
+
+                    var map_vis = new MapVis(d3.select("#mapVis"), newData, MyEventHandler);
+                    console.log(newData)
+                    // $(MyEventHandler).bind("selectionChanged", function(event, d) {
+
+
+                    //     map_vis.onSelectionChange(d)
+
+                    // })
+                    // console.log(newData)
+                    var pie_vis = new PieVis(d3.select("#pieVis"), tripData, MyEventHandler);
+                    // console.log(tripData)
+                    $(MyEventHandler).bind("selectionChanged", function(event, range) {
+                        // console.log(rangeStart)
+                        // console.log(rangeEnd)
+                        pie_vis.onSelectionChange(range)
+
+                    })
+
+                    var user_vis = new UserVis(d3.select("#userVis"), newData, MyEventHandler);
+                    // $(MyEventHandler).bind("selectionChanged", function(event, d) {
+
+
+                    //     user_vis.onSelectionChange(d)
+                    //     console.log(d)
+
+                    // })
+
+
+                    var count_vis = new CountVis(d3.select("#countVis"), intervalData, MyEventHandler);
+                    $(MyEventHandler).bind("onChecked", function(event, d) {
+
+
+                        count_vis.onSelectionChange(d)
+                        // map_vis.onselection
+                        // console.log(d)
+
+                    })
+
+d3.select("#weekday").on("change", function(d){
+    count_vis.onCheckboxChanged(d)
+})
+
+
+
+
+
+                }
+                  var dataLoaded = function(error, _tripData, _intervalData, _newData) {
+                // var dataLoaded = function(error, _tripData, _newData) {
+                    if (!error) {
+// console.log("interval data" + _intervalData)
+// console.log(_intervalData)
+// console.log("new data" + _newData)
+// console.log(_newData)
+// console.log("Tripdata: " + _tripData)
+// console.log(_tripData)
+// for()
+// tripData = _tripDat
+
+                        tripData = _tripData;
+                        intervalData = _intervalData
+                        // console.log(convert_time("09:09:09"))
+                        newData = _newData
+                        // console.log(newData)
+
+                        // intervalData = []
+
+                        // intervals_keys.forEach(function (d)
+                        // {
+
+
+                        //     console.log(intervals_keys)
+
+                        //         intervalData.push(
+                        //             {"time": convert_time(d),
+                        //                 "count": _intervalData[d].totaltrips[0]
+                        //         }
+
+                        //             )
+
+                        // })
+
+
+                        // intervalData = _intervalData
+
+                        // var trips = sum_trips(intervals)
+                        // // console.log(trips)
+                        // var number = current_number(intervals, 11)
+                        // console.log(number)
+                        initVis();
+                    } // Error end
+                    else(console.log(error))
+
+                    // Function end
+                }
+
+
+                var startHere = function() {
+
+
+                    queue()
+
+
+                    .defer(d3.json, 'data/trips_aug12.json')
+                    .defer(d3.json, 'data/new_aggformatted.json')
+                    .defer(d3.json, 'hubwaydatachallenge.json')
+                    .await(dataLoaded);
+
+//                     setTimeout(function(){
+//                         var stringintervals = JSON.stringify(intervalData)
+        
+// var url = 'data:text/json;charset=utf8,' + encodeURIComponent(stringintervals);
+//     window.open(url, '_blank');
+//     window.focus();
+//                     }, 4000)
+                    
+
+
+                }
+                startHere();
+
+
+
+            })
+
+
+
+      
+
+            // d3.select("#weekend").on("change", function() {
+            //     if (d3.select(this).property("checked") == true) {
+            //         console.log("weekend");
+            //     }
+            // })
+
+            // d3.select("#weekday").on("change", function() {
+            //     if (d3.select(this).property("checked") == true) {
+            //         console.log("weekday");
+            //     }
+            // })
+
+            var gettime = function(d) {
+
+                var value = d3.range(8).map(function() {
+                    return 0;
+                });
+
+
+                var i;
+                var j = i - 11;
+
+                for (i = 11; i <= 18; i++) {
+
+                    value[i - 11] = d[i]
+
+                }
+
+                time = +value[0] + "" + value[1] + "" + value[2] + "" + value[3] + "" + value[4] + "" + value[5] + "" + value[6] + "" + value[7]
+
+                return time;
+
+            }
+
+            var convert_time = function(d) {
+                var value = d3.range(5).map(function() {
+                    return 0;
+                });
+
+                var i;
+                
+
+                for (i = 0; i <= 4; i++) {
+
+                    value[i] = d[i]
+
+                }
+
+                var minutes = Number(+ value[3] + "" + value[4] )
+                console.log(minutes)
+                if (minutes != "00")
+                {
+                    minutes = minutes/60
+                    var x = 0
+                    var formatted = +minutes +"0";
+                    // minutes.toFixed(3)
+                }
+                else (formatted = "0.00")
+                console.log(minutes)
+                var time = +value[0] + "" + value[1] + "" + formatted[1]+"" +formatted[2]+""+formatted[3]
+
+                return time;
+            }
+
+            var sum_trips = function(d) {
+
+                for (j = 0; j < intervals_keys.length; j++) {
+                    var arrivals = 0
+                    for (i = 0; i < stations.length; i++) {
+
+                        var station_info = d[intervals_keys[j]][stations[i]]
+                        station_info.forEach(function(k) {
+
+                            arrivals += k["bike_arrivals"]
+
+                        })
+
+
+
+                    }
+                    intervals[intervals_keys[j]]["totaltrips"].push(arrivals)
+
+                }
+
+
+
+            }
+
+            var current_number = function(d, stationnumber) {
+                var arrivals = 0;
+                var departures = 0;
+               
+                for (var j = 0; j < intervals_keys.length; j++) 
+                {
+                    // console.log(d[intervals_keys[j]])
+                   
+
+                    d[intervals_keys[j]][stationnumber].forEach(function (k) {
+
+
+                            console.log("heree")
+                            arrivals += k["bike_arrivals"]
+                            departures += k["bike_departures"]
+                            // arrivals += d[intervals_keys[j]][stations[i]]["bike_arrivals"]
+                            // departures += d[intervals_keys[j]][stations[i]]["bike_departures"]
+                        })
+                }
+                    console.log(arrivals)
+                    return [arrivals, departures]
+
+
+                    
+                    // return arrivals;
+                    // console.log(arrivals)
+
+                
+
+            }
+
+
+        
+        </script>
+</body>
+
+</html>

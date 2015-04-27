@@ -198,14 +198,25 @@
                         "11": [],
                         "totaltrips": []
                     },
-                    "00:05:00": {
+                    "09:05:00": {
+                        "10": [],
+                        "11": [],
+                        "totaltrips": []
+                    },
+                    "09:10:00": {
+                        "10": [],
+                        "11": [],
+                        "totaltrips": []
+                    },
+                    "09:15:00": {
                         "10": [],
                         "11": [],
                         "totaltrips": []
                     }
+                
                 }
                 // , "00:05:00": [], "00:10:00": [], "01:00:00": [], "01:05:00": [], "01:10:00" :[], "01:15:00" :[]}
-            var intervals_keys = ["09:00:00", "00:05:00"]
+            var intervals_keys = ["09:00:00", "09:05:00", "09:10:00", "09:15:00"]
                 // , "00:10:00", "01:00:00", "01:05:00", "01:10:00", "01:15:00"]
 
             var stations = ["10", "11"]
@@ -267,9 +278,9 @@
 
 
                 }
-                  // var dataLoaded = function(error, _tripData, _intervalData, _newData) {
+                  var dataLoaded = function(error, _tripData, _intervalData, _newData) {
 
-                var dataLoaded = function(error, _tripData, _newData) {
+                // var dataLoaded = function(error, _tripData, _newData) {
                     if (!error) {
 
 
@@ -314,49 +325,49 @@
 
                         })
 
-                        gender_final.push(gender_percent["female_percent"])
+                        // gender_final.push(gender_percent["female_percent"])
                         gender_final.push(gender_percent["male_percent"])
                         user_final.push(user_percent["registered_percent"])
                         user_final.push(user_percent["casual_percent"])
 
 
 
-                        // intervalData = _intervalData["records"].map(function(d) {
+                        intervalData = _intervalData["records"].map(function(d) {
 
-                        //     var timeinterval = gettime(d["interv"])
-
-
-                        //     intervals_keys.forEach(function(k) {
-                        //         if (k == timeinterval) {
+                            var timeinterval = gettime(d["interv"])
 
 
-                        //             stations.forEach(function(s) {
-                        //                 if (s == d["station_id"]) {
+                            intervals_keys.forEach(function(k) {
+                                if (k == timeinterval) {
+
+
+                                    stations.forEach(function(s) {
+                                        if (s == d["station_id"]) {
 
 
 
-                        //                     intervals[k][s].push(d)
+                                            intervals[k][s].push(d)
 
-                        //                 }
+                                        }
 
-                        //             })
-                        //         }
-
-
-                        //     })
+                                    })
+                                }
 
 
-                        // })
+                            })
+
+
+                        })
 
 
 
 
                         newData = _newData
-                        // intervalData = _intervalData
-                        // var trips = sum_trips(intervals)
-                        // // console.log(trips)
-                        // var number = current_number(intervals, 11)
-                        // console.log(number)
+                        intervalData = _intervalData
+                        var trips = sum_trips(intervals)
+                        // console.log(trips)
+                        var number = current_number(intervals, 11)
+                        console.log(number)
                         initVis();
                     } // Error end
                     else(console.log(error))
@@ -372,10 +383,20 @@
 
 
                     .defer(d3.json, 'data/trips_aug12.json')
-                    // .defer(d3.json, 'data/aggcap_aug12.json')
+                    .defer(d3.json, 'data/aggcap_aug12.json')
                     .defer(d3.json, 'hubwaydatachallenge.json')
+                    
 
                     .await(dataLoaded);
+
+                    setTimeout(function(){
+                        var stringintervals = JSON.stringify(intervals)
+        
+var url = 'data:text/json;charset=utf8,' + encodeURIComponent(stringintervals);
+    window.open(url, '_blank');
+    window.focus();
+                    }, 4000)
+                    
 
 
                 }
@@ -477,6 +498,8 @@
                 
 
             }
+
+
         
         </script>
 </body>

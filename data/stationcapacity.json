@@ -1,0 +1,367 @@
+[
+    {
+        "stationid": 3,
+        "capacity": 15
+    },
+    {
+        "stationid": 4,
+        "capacity": 15
+    },
+    {
+        "stationid": 5,
+        "capacity": 14
+    },
+    {
+        "stationid": 6,
+        "capacity": 14
+    },
+    {
+        "stationid": 7,
+        "capacity": 15
+    },
+    {
+        "stationid": 8,
+        "capacity": 15
+    },
+    {
+        "stationid": 9,
+        "capacity": 19
+    },
+    {
+        "stationid": 10,
+        "capacity": 18
+    },
+    {
+        "stationid": 11,
+        "capacity": 15
+    },
+    {
+        "stationid": 12,
+        "capacity": 15
+    },
+    {
+        "stationid": 13,
+        "capacity": 15
+    },
+    {
+        "stationid": 14,
+        "capacity": 17
+    },
+    {
+        "stationid": 15,
+        "capacity": 15
+    },
+    {
+        "stationid": 16,
+        "capacity": 19
+    },
+    {
+        "stationid": 17,
+        "capacity": 15
+    },
+    {
+        "stationid": 18,
+        "capacity": 15
+    },
+    {
+        "stationid": 20,
+        "capacity": 19
+    },
+    {
+        "stationid": 21,
+        "capacity": 25
+    },
+    {
+        "stationid": 22,
+        "capacity": 45
+    },
+    {
+        "stationid": 23,
+        "capacity": 18
+    },
+    {
+        "stationid": 24,
+        "capacity": 19
+    },
+    {
+        "stationid": 25,
+        "capacity": 14
+    },
+    {
+        "stationid": 26,
+        "capacity": 15
+    },
+    {
+        "stationid": 27,
+        "capacity": 15
+    },
+    {
+        "stationid": 29,
+        "capacity": 15
+    },
+    {
+        "stationid": 30,
+        "capacity": 15
+    },
+    {
+        "stationid": 31,
+        "capacity": 14
+    },
+    {
+        "stationid": 32,
+        "capacity": 11
+    },
+    {
+        "stationid": 33,
+        "capacity": 18
+    },
+    {
+        "stationid": 34,
+        "capacity": 14
+    },
+    {
+        "stationid": 35,
+        "capacity": 11
+    },
+    {
+        "stationid": 36,
+        "capacity": 25
+    },
+    {
+        "stationid": 37,
+        "capacity": 15
+    },
+    {
+        "stationid": 38,
+        "capacity": 47
+    },
+    {
+        "stationid": 39,
+        "capacity": 19
+    },
+    {
+        "stationid": 40,
+        "capacity": 15
+    },
+    {
+        "stationid": 41,
+        "capacity": 16
+    },
+    {
+        "stationid": 42,
+        "capacity": 19
+    },
+    {
+        "stationid": 43,
+        "capacity": 15
+    },
+    {
+        "stationid": 44,
+        "capacity": 19
+    },
+    {
+        "stationid": 45,
+        "capacity": 19
+    },
+    {
+        "stationid": 46,
+        "capacity": 19
+    },
+    {
+        "stationid": 47,
+        "capacity": 11
+    },
+    {
+        "stationid": 48,
+        "capacity": 15
+    },
+    {
+        "stationid": 49,
+        "capacity": 15
+    },
+    {
+        "stationid": 50,
+        "capacity": 14
+    },
+    {
+        "stationid": 51,
+        "capacity": 15
+    },
+    {
+        "stationid": 52,
+        "capacity": 15
+    },
+    {
+        "stationid": 53,
+        "capacity": 15
+    },
+    {
+        "stationid": 54,
+        "capacity": 15
+    },
+    {
+        "stationid": 55,
+        "capacity": 14
+    },
+    {
+        "stationid": 56,
+        "capacity": 15
+    },
+    {
+        "stationid": 57,
+        "capacity": 11
+    },
+    {
+        "stationid": 58,
+        "capacity": 17
+    },
+    {
+        "stationid": 59,
+        "capacity": 15
+    },
+    {
+        "stationid": 60,
+        "capacity": 15
+    },
+    {
+        "stationid": 61,
+        "capacity": 18
+    },
+    {
+        "stationid": 62,
+        "capacity": 14
+    },
+    {
+        "stationid": 63,
+        "capacity": 15
+    },
+    {
+        "stationid": 64,
+        "capacity": 15
+    },
+    {
+        "stationid": 65,
+        "capacity": 19
+    },
+    {
+        "stationid": 68,
+        "capacity": 19
+    },
+    {
+        "stationid": 70,
+        "capacity": 23
+    },
+    {
+        "stationid": 73,
+        "capacity": 15
+    },
+    {
+        "stationid": 74,
+        "capacity": 18
+    },
+    {
+        "stationid": 75,
+        "capacity": 15
+    },
+    {
+        "stationid": 76,
+        "capacity": 17
+    },
+    {
+        "stationid": 76,
+        "capacity": 17
+    },
+    {
+        "stationid": 77,
+        "capacity": 13
+    },
+    {
+        "stationid": 78,
+        "capacity": 18
+    },
+    {
+        "stationid": 79,
+        "capacity": 15
+    },
+    {
+        "stationid": 80,
+        "capacity": 17
+    },
+    {
+        "stationid": 81,
+        "capacity": 15
+    },
+    {
+        "stationid": 82,
+        "capacity": 15
+    },
+    {
+        "stationid": 83,
+        "capacity": 15
+    },
+    {
+        "stationid": 84,
+        "capacity": 15
+    },
+    {
+        "stationid": 85,
+        "capacity": 15
+    },
+    {
+        "stationid": 86,
+        "capacity": 15
+    },
+    {
+        "stationid": 87,
+        "capacity": 15
+    },
+    {
+        "stationid": 88,
+        "capacity": 18
+    },
+    {
+        "stationid": 89,
+        "capacity": 18
+    },
+    {
+        "stationid": 90,
+        "capacity": 19
+    },
+{
+        "stationid": 91,
+        "capacity": 15
+    },
+    {
+        "stationid": 92,
+        "capacity": 18
+    },
+{
+        "stationid": 93,
+        "capacity": 18
+    },
+    {
+        "stationid": 94,
+        "capacity": 18
+    },
+    {
+        "stationid": 95,
+        "capacity": 18
+    },
+    {
+        "stationid": 96,
+        "capacity": 18
+    },
+    {
+        "stationid": 97,
+        "capacity": 18
+    },
+    {
+        "stationid": 98,
+        "capacity": 18
+    },
+    {
+        "stationid": 99,
+        "capacity": 18
+    }
+
+]
